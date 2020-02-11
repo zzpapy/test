@@ -130,29 +130,32 @@ img{
     width:50%;
 }
 
+.fa-chevron-circle-up{
+    color: black;
+}
 .flex_foot{
     display: flex;
    justify-content: space-between;
    align-items: flex-start;
     flex-direction: row;
 }
-.flex_foot:first-child{
-    padding-top: 8vh;
+.flex_foot1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+     flex-direction: row;
 }
 .col{
     flex-direction: column;
 }
-.aside_div>div{
-    /* width: 150px;
-    height: 150px; */
-}
+
 .pays{
-    width: 45%;
+    width: 50%;
 }
 .left{
     display: flex;
     width: 100%;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 .flex_form{
     display: flex;
@@ -179,15 +182,17 @@ img{
 .photo{
     width: 100px;
     height: 100px;
+    cursor: pointer;
 }
 #full_screen{
     position: absolute;
-    top: 0;
+    top: 10vh;
     left:0;
     padding: 5em;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    z-index: 100;
+    z-index: 100000;
+    /* transition: width 2s; */
     display: none;
 }
 

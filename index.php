@@ -83,9 +83,12 @@
                 </aside>
             </section>
             <section class="bas">
+                <div id="full_screen"class="photo1"><i id="photo1"class="far fa-times-circle fa-2x"></i><img src="public/images/rio1.jpg" alt=""></div>
+                <div id="full_screen"class="photo3"><i id="photo3" class="far fa-times-circle fa-2x"></i><img src="public/images/rio3.jfif" alt=""></div>
+                <div id="full_screen"class="photo4"><i id="photo4" class="far fa-times-circle fa-2x"></i><img src="public/images/rio4.jpeg" alt=""></div>
                 <footer class="footer">
                     <div class="arrow">
-                        <a href="#"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+                        <a class="arrow" href=""><i class="fas fa-chevron-circle-up fa-2x"></i></a>
                     </div>
                     <div class="left">
                         <div class="aside_div">
@@ -94,7 +97,7 @@
                                 <form action="">
                                     <input type="text">
                                     <div class="flex_form">
-                                        <input type="text">
+                                        <input type="text" placehloder=>
                                         <input type="submit" value="s'abonner">
                                     </div>
                                 </form>
@@ -102,11 +105,10 @@
                         </div>
                         <div class="aside_div pays">
                             <h3>PHOTOS</h3>
-                            <div class="flex_foot">
+                            <div class="flex_foot1">
                                 <div class="photo" id="photo1">
                                     <img src="public/images/rio1.jpg" alt="">
                                 </div>
-                                <div id="full_screen"class="photo1"><i id="photo1"class="far fa-times-circle fa-2x"></i><img src="public/images/rio1.jpg" alt=""></div>
                                 <div class="photo" id="photo2">
                                     <img src="public/images/rio2.jpg" alt="">
                                 </div>
@@ -114,11 +116,9 @@
                                 <div class="photo" id="photo3">
                                     <img src="public/images/rio3.jfif" alt="">
                                 </div>
-                                <div id="full_screen"class="photo3"><i id="photo3" class="far fa-times-circle fa-2x"></i><img src="public/images/rio3.jfif" alt=""></div>
                                 <div class="photo" id="photo4">
                                     <img src="public/images/rio4.jpeg" alt="">
                                 </div>
-                                <div id="full_screen"class="photo4"><i id="photo4" class="far fa-times-circle fa-2x"></i><img src="public/images/rio4.jpeg" alt=""></div>
                             </div>
                         </div>
                     </div>
