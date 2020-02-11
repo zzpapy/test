@@ -1,0 +1,193 @@
+
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 75%;
+    margin: auto;
+    /* position: relative; */
+}
+.header{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 2vh;
+    border-bottom: 2px solid black;
+}
+.logo_rio{
+    width: 150px;
+}
+.nav{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.5vh;
+    font-size: 25px;
+}
+.nav>a{
+    text-decoration: none;
+    color: black;
+}
+.section_plage{
+    background:url('../images/plage.jpg') ;
+    background-color: white;
+    /* background-size: cover; */
+    /* display: flex;    */
+    justify-content: flex-end; 
+    height: 30vh;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+.section_plage div{
+    width: 100%;
+}
+.span_photo{
+    display: flex;
+    background-color: rgb(220,220,220,0.4);
+    height: 4vh;
+    position: absolute;
+    top: 25.8vh;
+    justify-content: flex-end;
+    color: white;
+    text-decoration: none;
+}
+.span_photo div{
+    /* width: 15em; */
+}
+.zoom{
+    align-self: flex-start;
+    padding-top: 1vh;
+}
+.zoom>p{
+    margin: 0;
+    margin-left:1em ;
+}
+.voir{
+    margin-left: auto; 
+    margin-right: 1em;
+    text-align: right;
+    padding-top: 1vh;
+}
+.voir>a{
+    
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    height: 2vh;
+    padding:0.3em;
+    margin-top: 1em;
+}
+.info{
+    display: flex;
+    margin-top: 2vh;
+}
+.fa-question{
+    width: 30px;
+    height: 30px;
+    padding:0.5em;
+    border-radius: 50%;
+    background-color: blue;
+    color:white;
+    margin-right: 1em;
+}
+.info>article{
+    /* padding: 2em; */
+    text-align: justify;
+    width: 80%;
+}
+.aside{
+    margin-left: 4em;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    width: 19%;
+    padding-bottom: 10vh;
+}
+.aside>h2{
+    text-align: center;
+}
+.img_drap{
+    width: 75%;
+    margin: auto;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+}
+.social>div{
+    width: 40px;
+    height: 40px;
+}
+.footer{
+    display: flex;
+    align-items: flex-start;
+}
+.aside_div{
+    width: 30%;
+}
+.aside_part{
+    width:50%;
+}
+
+.flex_foot{
+    display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+    flex-direction: row;
+}
+.flex_foot:first-child{
+    padding-top: 8vh;
+}
+.col{
+    flex-direction: column;
+}
+.aside_div>div{
+    /* width: 150px;
+    height: 150px; */
+}
+.pays{
+    width: 45%;
+}
+.left{
+    display: flex;
+    width: 100%;
+    /* justify-content: space-evenly; */
+}
+.flex_form{
+    display: flex;
+    margin-top: 1em;
+}
+.arrow{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    left: 47%;
+    top:-0.5em;
+    z-index: 1000;
+}
+.footer{
+    border-top: 2px solid black;
+    position: relative;
+}
+.bas{
+    /* position: relative; */
+}
+.photo div{
+    display: none;
+}
+.photo{
+    width: 100px;
+    height: 100px;
+}
+#full_screen{
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
